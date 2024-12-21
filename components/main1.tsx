@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import Image from "next/image";
 import logo from "../public/images/Illustration.png";
+import logo2 from "../public/images/mobile-login 2/pana.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -65,24 +66,23 @@ const Main1 = () => {
             <div className="flex items-center gap-9 md:gap-0 justify-center md:flex-row flex-col md:w-[80vw] ">
               <div className="flex flex-col justify-center md:items-start items-center gap-6 w-full">
                 <h1 className=" text-[8vw] md:text-[4.6vw] font-sans font-semibold text-[#4d4d4d] md:leading-[76px]">
-                  Lessons and insights
+                  We got <span className="text-[#4caf4f]">you</span>
                   <br />
-                  <span className="text-[#4caf4f]">from 8 years</span>
+                  <span className="">Leave it to us</span>
                 </h1>
                 <div className="px-8 md:px-0 ">
                   <h4 className="font-thin inline-block  text-center  mx-0 m-auto md:px-0 text-[#717171]">
-                    Where to grow your business as a photographer: site or
-                    social media?
+                    We got your solutions, Keep in touch with us!!
                   </h4>
                 </div>
                 <button className="bg-[#4caf4f] w-[120px] flex items-center justify-center px-10 py-3 rounded-md">
-                  <h3 className="font-medium text-white">Register</h3>
+                  <h3 className="font-medium text-white">Contact</h3>
                 </button>
               </div>
               <div className="w-[40vw] h-full relative">
                 <Image
                   className="h-auto w-[30vw]"
-                  src={logo}
+                  src={logo2}
                   alt="logo"
                   width={1800}
                   height={1200.71} // Ensures the image fills the container's width and height

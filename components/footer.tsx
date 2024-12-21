@@ -9,7 +9,7 @@ const Footer = () => {
   const images = [img1, img2, img3, img4];
   return (
     <div>
-      <div className="bg-[#273239] pb-6 flex-wrap-reverse flex h-[300px]">
+      <div className="bg-[#273239] lg:px-0 md:px-5 pb-6 flex-wrap-reverse md:flex-nowrap flex lg:h-[300px]">
         <div className="md:w-[44%] mx-auto md:mx-0 flex items-center  justify-center">
           <div className="flex-col  gap-8 flex">
             <Image
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className=" pt-12  ">
+        <div className=" pt-12 flex justify-center items-center  w-full md:pb-0 pb-10 ">
           <div className="  justify-center items-start  flex-wrap gap-16 w-auto flex">
             <div className="text-[#f6f7fa] text-[14px]">
               <h2 className=" text-[20px] mb-4 font-sans font-semibold">
